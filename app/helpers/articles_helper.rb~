@@ -1,6 +1,6 @@
 module ArticlesHelper
 
-  def article_params
+  def
     params.require(:article).permit(:title, :body)
   end
 
